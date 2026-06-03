@@ -1,47 +1,113 @@
 # Healthcare AI Assistant
 
-## Objective
+## Project Overview
 
-Healthcare AI Assistant is an intelligent healthcare platform that leverages Artificial Intelligence, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and secure data management to provide medical information, symptom analysis, disease prediction, and personalized healthcare assistance.
+Healthcare AI Assistant is an AI-powered medical chatbot that allows users to ask healthcare-related questions and receive intelligent responses through a modern web interface.
 
-The project aims to build a scalable and secure AI-powered healthcare ecosystem that can support patients, healthcare professionals, and researchers.
+The project uses FastAPI for the backend, React for the frontend, and Ollama for running local Large Language Models.
+
+---
 
 ## Tech Stack
 
 ### Frontend
-- React.js
-- HTML
-- CSS
-- JavaScript
+
+* React.js
+* Axios
+* CSS
 
 ### Backend
-- FastAPI
-- Python
 
-### AI & Machine Learning
-- Large Language Models (LLMs)
-- LangChain
-- Retrieval-Augmented Generation (RAG)
-- Vector Databases
+* FastAPI
+* Python
+* Uvicorn
 
-### Database
-- PostgreSQL
+### AI Layer
 
-### DevOps & Deployment
-- Docker
-- GitHub
-- Git
+* Ollama
+* Llama 3
 
-## Features
+### Version Control
 
-- AI-powered healthcare assistant
-- Medical question answering
-- Retrieval-Augmented Generation (RAG)
-- Symptom analysis and guidance
-- Healthcare knowledge base search
-- Secure patient data management
-- Vector database integration
-- Multi-agent AI architecture
-- REST API services
-- Dockerized deployment
-- Evaluation and performance monitoring
+* Git
+* GitHub
+
+---
+
+## Completed Features (Week 1)
+
+✔ Project Setup
+
+✔ GitHub Repository Created
+
+✔ FastAPI Backend
+
+✔ React Frontend
+
+✔ Ollama Integration
+
+✔ Chat API Endpoint
+
+✔ Frontend-Backend Connection
+
+✔ Local LLM Response Generation
+
+---
+
+## Project Structure
+
+Healthcare-AI-Assistant/
+
+├── backend/
+
+│ ├── app.py
+
+│ ├── requirements.txt
+
+│ └── venv/
+
+├── frontend/
+
+│ ├── src/
+
+│ ├── public/
+
+│ └── package.json
+
+├── README.md
+
+└── .gitignore
+
+---
+
+## How to Run
+
+### Backend
+
+cd backend
+
+uvicorn app:app --reload
+
+### Frontend
+
+cd frontend
+
+npm start
+
+---
+
+## Future Enhancements
+
+* User Authentication
+* Medical Report Upload
+* RAG-based Knowledge Retrieval
+* Disease Prediction Models
+* PostgreSQL Database
+* Blockchain Security Layer
+* Multi-language Support
+
+---
+
+## Author
+
+Kiruba
